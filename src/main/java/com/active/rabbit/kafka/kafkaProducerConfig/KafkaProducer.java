@@ -34,8 +34,11 @@ public class KafkaProducer {
 				log.info("-----OnSuccess Callback : {}", result.getRecordMetadata());
 
 				log.info(String.format("Produced:\ntopic: %s\noffset: %d\npartition: %d\nvalue size: %d",
-						result.getRecordMetadata().topic(), result.getRecordMetadata().offset(),
-						result.getRecordMetadata().partition(), result.getRecordMetadata().serializedValueSize()));
+						result.getRecordMetadata().topic(), 
+						result.getRecordMetadata().offset(),
+						result.getRecordMetadata().partition(), 
+						result.getRecordMetadata().serializedValueSize()
+				));
 			}
 
 			@Override
