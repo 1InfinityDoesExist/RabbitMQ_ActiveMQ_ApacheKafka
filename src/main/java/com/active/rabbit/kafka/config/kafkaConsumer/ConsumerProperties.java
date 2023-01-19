@@ -1,4 +1,4 @@
-package com.active.rabbit.kafka.kafkaConsumerConfig;
+package com.active.rabbit.kafka.config.kafkaConsumer;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;

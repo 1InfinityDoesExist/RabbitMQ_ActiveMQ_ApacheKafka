@@ -1,4 +1,4 @@
-package com.active.rabbit.kafka.kafkaConsumerConfig;
+package com.active.rabbit.kafka.config.kafkaConsumer;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

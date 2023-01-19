@@ -1,4 +1,4 @@
-package com.active.rabbit.kafka.elasticsearch;
+package com.active.rabbit.kafka.config.elasticsearch;
 
 import org.apache.http.HttpHost;
 import org.elasticsearch.client.RestClient;

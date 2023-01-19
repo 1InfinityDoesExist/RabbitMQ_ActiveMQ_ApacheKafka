@@ -1,4 +1,4 @@
-package com.active.rabbit.kafka.elasticsearch;
+package com.active.rabbit.kafka.config.elasticsearch;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;

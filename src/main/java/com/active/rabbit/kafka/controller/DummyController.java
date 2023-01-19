@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.active.rabbit.kafka.kafkaProducerConfig.KafkaProducer;
+import com.active.rabbit.kafka.config.kafkaProducer.KafkaProducer;
 
 @RestController
 @RequestMapping("/test")

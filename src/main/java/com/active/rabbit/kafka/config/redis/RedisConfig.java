@@ -1,4 +1,4 @@
-package com.active.rabbit.kafka.redis;
+package com.active.rabbit.kafka.config.redis;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
