@@ -57,6 +57,8 @@ public class RabbitMQConfig {
 		connectionFactory.setPort(rabbitMQProperties.getPort());
 		connectionFactory.setPassword(rabbitMQProperties.getPassword());
 		connectionFactory.setUsername(rabbitMQProperties.getUsername());
+		connectionFactory.setPublisherConfirms(true);
+		connectionFactory.setPublisherReturns(true);
 		return connectionFactory;
 	}
 
@@ -65,6 +67,10 @@ public class RabbitMQConfig {
 		RabbitTemplate template = new RabbitTemplate();
 		template.setConnectionFactory(connectionFactory());
 		template.setMessageConverter(jsonMessageConverter());
+		template.setReturnCallback(
+				(message, replyCode, replyText, exchange, routingKey) -> log.info(replyCode + "," + replyText));
+		template.setChannelTransacted(true);
+		template.setMandatory(true);
 		return template;
 	}
 
