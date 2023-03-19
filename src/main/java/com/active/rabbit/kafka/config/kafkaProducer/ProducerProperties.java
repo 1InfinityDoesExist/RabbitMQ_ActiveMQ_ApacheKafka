@@ -1,4 +1,4 @@
-package com.active.rabbit.kafka.kafkaProducerConfig;
+package com.active.rabbit.kafka.config.kafkaProducer;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;

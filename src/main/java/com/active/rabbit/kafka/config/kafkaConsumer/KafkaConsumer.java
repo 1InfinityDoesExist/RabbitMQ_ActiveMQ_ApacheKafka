@@ -1,4 +1,4 @@
-package com.active.rabbit.kafka.kafkaConsumerConfig;
+package com.active.rabbit.kafka.config.kafkaConsumer;
 
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.kafka.support.Acknowledgment;

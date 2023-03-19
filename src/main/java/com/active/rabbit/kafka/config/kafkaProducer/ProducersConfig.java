@@ -1,4 +1,4 @@
-package com.active.rabbit.kafka.kafkaProducerConfig;
+package com.active.rabbit.kafka.config.kafkaProducer;
 
 import java.util.HashMap;
 import java.util.Map;
